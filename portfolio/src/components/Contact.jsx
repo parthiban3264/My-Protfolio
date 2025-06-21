@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    await axios.post('https://my-protfolio-backend-2ikz.onrender.com/send', formData);
+    await axios.post(`${import.meta.env.VITE_BACKEND_URL}/send`, formData);
     toast.success('Message sent successfully!');
     setFormData({ name: '', email: '', message: '' });
   } catch (error) {
