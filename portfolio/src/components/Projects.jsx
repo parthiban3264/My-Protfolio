@@ -22,10 +22,10 @@ const projects = [
   },
   {
     id: 3,
-    name: "Protfolio",
+    name: "Portfolio",
     technologies: "React + Vite",
     image: portfolio,
-    github: "https://github.com/parthiban3264/EsateKing.git",
+    github: "https://github.com/parthiban3264/My-Protfolio.git",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     id: 5,
-    name: "E-commerce_Admin",
+    name: "E-com-Admin",
     technologies: "MERN Stack",
     image: slipper,
     github: "https://github.com/parthiban3264/E-commerce-Admin.git",
