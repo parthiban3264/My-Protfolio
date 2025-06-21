@@ -27,10 +27,11 @@ const services = [
   //   description: "Writing content for your business and companies.",
   // },
   {
-    id: 5,
-    title: "Digital Marketing",
-    description: "Take your business to the next level with our powerful digital marketing solutions.",
-  },
+  id: 5,
+  title: "Database Management",
+  description: "Protect and manage your critical data with robust, encrypted, and compliant database systems.",
+}
+
 ];
 const Service = () => {
   return (
