@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    await axios.post('http://localhost:5000/send', formData);
+    await axios.post('https://my-protfolio-backend-2ikz.onrender.com/send', formData);
     toast.success('Message sent successfully!');
     setFormData({ name: '', email: '', message: '' });
   } catch (error) {
