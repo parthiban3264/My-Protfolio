@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    await axios.post('http://localhost:5000/send', formData);
+    await axios.post(`${import.meta.env.VITE_BACKEND_URL}/send`, formData);
     toast.success('Message sent successfully!');
     setFormData({ name: '', email: '', message: '' });
   } catch (error) {
